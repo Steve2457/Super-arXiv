@@ -5,18 +5,20 @@
 <h1 align="center">Super arXiv</h1>
 
 <p align="center">
-  <b>中文</b> | <a href="README_EN.md">English</a>
+  <a href="README_ZH.md">中文</a> | <b>English</b>
 </p>
 
 <p align="center">
-  面向 <code>arxiv.org</code> 的效率插件，帮你更快完成论文检索、筛选、下载与收藏管理。
+  An efficiency plugin for <code>arxiv.org</code> that helps you search, filter, download, and manage papers faster.
 </p>
 
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/super-arxiv/emjofeihemfkkooiabkgnfocghkmeabk">
     <img src="https://img.shields.io/badge/Chrome-Available-4285F4?logo=googlechrome&logoColor=white" alt="Chrome Available" />
   </a>
-  <img src="https://img.shields.io/badge/Edge-In%20Review-0078D4?logo=microsoftedge&logoColor=white" alt="Edge In Review" />
+  <a href="https://microsoftedge.microsoft.com/addons/detail/super-arxiv/lglbfaegjiccblaokldoeomlfmjlccmf">
+    <img src="https://img.shields.io/badge/Edge-Available-0078D4?logo=microsoftedge&logoColor=white" alt="Edge Available" />
+  </a>
   <img src="https://img.shields.io/badge/arXiv-Productivity-b31b1b?logo=arxiv&logoColor=white" alt="arXiv Productivity" />
   <img src="https://img.shields.io/badge/Language-ZH%20%2F%20EN-orange" alt="ZH / EN" />
   <a href="https://awesome.re">
@@ -28,165 +30,164 @@
   <a href="https://chromewebstore.google.com/detail/super-arxiv/emjofeihemfkkooiabkgnfocghkmeabk">
     <img src="pic/chrome.png" alt="Chrome Logo" width="48" />
   </a>
-  <img src="pic/edge.png" alt="Edge Logo" width="48" />
+  <a href="https://microsoftedge.microsoft.com/addons/detail/super-arxiv/lglbfaegjiccblaokldoeomlfmjlccmf">
+    <img src="pic/edge.png" alt="Edge Logo" width="48" />
+  </a>
 </p>
 
-<p align="center">
-  <sub>Edge 版本正在审核中，敬请期待。</sub>
-</p>
 
-![Super arXiv 整体预览](pic/overview.png)
+![Super arXiv Overview](pic/overview.png)
 
-## ✨ 为什么选择 Super arXiv？
+## ✨ Why Choose Super arXiv?
 
-- 📌 在 arXiv 摘要页直接显示增强工具栏，减少来回切换页面的成本。
-- 🔎 一键跳转 `Google Scholar`、`Hugging Face Papers`、`GitHub`，快速补齐论文上下文。
-- 🕒 展示投稿版本时间线，帮助你迅速了解论文迭代历史。
-- 📚 内置收藏夹、子文件夹、批量下载和笔记能力，便于持续整理文献。
-- 💾 下载 PDF 时自动整理文件名，更适合本地归档。
-- 🔐 收藏与设置保存在浏览器本地，开箱即用。
+- 📌 Directly display an enhanced toolbar on the arXiv abstract page, reducing the cost of switching back and forth between pages.
+- 🔎 One-click jump to `Google Scholar`, `Hugging Face Papers`, and `GitHub` to quickly complete the paper context.
+- 🕒 Display the submission version timeline to help you quickly understand the paper iteration history.
+- 📚 Built-in bookmarks, subfolders, batch downloads, and note-taking capabilities for easy continuous organization of literature.
+- 💾 Automatically organize filenames when downloading PDFs, making it more suitable for local archiving.
+- 🔐 Bookmarks and settings are saved locally in the browser, ready to use out of the box.
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-1. 前往 [Chrome Web Store 安装 Super arXiv](https://chromewebstore.google.com/detail/super-arxiv/emjofeihemfkkooiabkgnfocghkmeabk)
-2. 打开任意 arXiv 摘要页，例如 `https://arxiv.org/abs/2401.01234`
-3. 在页面标题区域使用 `Super arXiv` 工具栏
-4. 首次使用建议先打开 `Settings`，按你的习惯调整显示组件
+1. Go to [Chrome Web Store](https://chromewebstore.google.com/detail/super-arxiv/emjofeihemfkkooiabkgnfocghkmeabk) or [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/super-arxiv/lglbfaegjiccblaokldoeomlfmjlccmf) to install Super arXiv
+2. Open any arXiv abstract page, e.g., `https://arxiv.org/abs/2401.01234`
+3. Use the `Super arXiv` toolbar in the page title area
+4. For first-time use, it is recommended to open `Settings` first and adjust the display components according to your habits
 
-## 🧩 核心能力
+## 🧩 Core Capabilities
 
-### 论文页增强
+### Paper Page Enhancement
 
-- `Google Scholar`：快速查看相关工作与被引情况
-- `Citations`：显示引用数，需在设置页手动开启
-- `Hugging Face Papers`：如果论文已被收录，可一键跳转
-- `GitHub`：自动聚合论文相关代码链接
-- `Download PDF`：一键下载并自动整理文件名
-- `Submission timeline`：查看论文版本变化历史
-- `Affiliations`：识别作者单位信息
-- `Refresh`：手动刷新引用数、单位等扩展信息
+- `Google Scholar`: Quickly view related work and citations
+- `Citations`: Display citation counts, need to be manually enabled in the settings page
+- `Hugging Face Papers`: If the paper has been indexed, you can jump with one click
+- `GitHub`: Automatically aggregate links to code related to the paper
+- `Download PDF`: One-click download and automatic filename organization
+- `Submission timeline`: View paper version change history
+- `Affiliations`: Identify author affiliation information
+- `Refresh`: Manually refresh extended information such as citation counts and affiliations
 
-### 收藏与管理
+### Bookmarks and Management
 
-- 收藏/取消收藏当前论文
-- 新建、重命名、删除、移动文件夹与子文件夹
-- 批量下载 PDF（ZIP）
-- 批量移除收藏
-- 记录个人笔记（Note）
-- 导出 Excel，方便整理、复盘和分享
+- Bookmark/Unbookmark the current paper
+- Create, rename, delete, and move folders and subfolders
+- Batch download PDFs (ZIP)
+- Batch remove bookmarks
+- Record personal notes
+- Export to Excel for easy organization, review, and sharing
 
-## 🖼️ 功能预览
+## 🖼️ Feature Preview
 
 ### 🔎 Google Scholar
 
-打开当前论文在 Scholar 的检索结果页，方便快速查看相关工作和被引情况。
+Open the search results page for the current paper in Scholar, making it easy to quickly view related work and citations.
 
-![Google Scholar 功能截图](pic/scholar.png)
+![Google Scholar Screenshot](pic/scholar.png)
 
-### 📈 Citations（可选）
+### 📈 Citations (Optional)
 
-显示引用数信息，首次使用需前往设置页面开启。若出现 `-` 或暂未显示，通常与网络环境或上游限制有关，可稍后重试。
+Display citation count information. For first-time use, go to the settings page to enable it. If `-` or no display appears, it is usually related to the network environment or upstream restrictions; you can try again later.
 
-![Citations 功能截图](pic/cite.png)
+![Citations Screenshot](pic/cite.png)
 
 ### 🤗 Hugging Face
 
-跳转到对应的 Hugging Face Papers 页面；若该论文暂未被收录，则不会显示有效跳转结果。
+Jump to the corresponding Hugging Face Papers page; if the paper has not yet been indexed, no valid jump result will be displayed.
 
-![Hugging Face 功能截图](pic/hf.png)
+![Hugging Face Screenshot](pic/hf.png)
 
 ### 🧑‍💻 GitHub
 
-自动聚合论文相关代码链接；如果没有可用仓库，按钮会保持不可点击状态。
+Automatically aggregate links to code related to the paper; if no available repository is found, the button will remain unclickable.
 
-![工具栏整体截图（含 GitHub 入口）](pic/overview.png)
+![Toolbar Overview (including GitHub entry)](pic/overview.png)
 
 ### ⬇️ Download PDF
 
-下载当前论文 PDF，并自动整理为更易管理的文件名（通常是论文标题）。
+Download the current paper PDF and automatically organize it into a more manageable filename (usually the paper title).
 
-![Download PDF 功能截图](pic/download.png)
+![Download PDF Screenshot](pic/download.png)
 
 ### 🕒 Submission timeline
 
-展示论文投稿版本时间线，帮助你快速了解版本变更历史。
+Display the paper submission version timeline to help you quickly understand the version change history.
 
-![Submission timeline 功能截图](pic/timeline.png)
+![Submission timeline Screenshot](pic/timeline.png)
 
 ### 🏫 Affiliations
 
-显示作者单位信息，帮助快速判断研究背景与机构来源。
+Display author affiliation information to help quickly judge research background and institutional sources.
 
-![Affiliations 功能截图](pic/affiliation.png)
+![Affiliations Screenshot](pic/affiliation.png)
 
-## 📚 收藏夹（Bookmarks）
+## 📚 Bookmarks
 
-收藏夹支持从「记录」到「导出」的一整套管理流程，适合长期积累和系统化整理文献。
+The bookmark system supports a complete management process from "recording" to "exporting," suitable for long-term accumulation and systematic organization of literature.
 
-### 🗂️ 子文件夹管理
+### 🗂️ Subfolder Management
 
-支持新建、重命名、删除和移动子文件夹，方便按主题、项目或研究方向组织收藏。
+Support creating, renaming, deleting, and moving subfolders, making it easy to organize bookmarks by topic, project, or research direction.
 
-![子文件夹管理截图](pic/subfolder.png)
+![Subfolder Management Screenshot](pic/subfolder.png)
 
-### 📦 批量操作
+### 📦 Batch Operations
 
-支持批量下载、批量移除等操作，显著提升整理效率。
+Support batch download, batch removal, and other operations, significantly improving organization efficiency.
 
-![批量操作截图](pic/batch.png)
+![Batch Operations Screenshot](pic/batch.png)
 
-### 📝 笔记功能
+### 📝 Note-taking
 
-可为论文添加个人备注，方便后续回顾、复盘与二次筛选。
+Personal notes can be added to papers for later review, reflection, and secondary screening.
 
-![笔记功能截图](pic/note.png)
+![Note-taking Screenshot](pic/note.png)
 
-## ⚙️ 设置说明
+## ⚙️ Settings
 
-在 `Settings` 中你可以：
+In `Settings`, you can:
 
-- 控制工具栏中各功能是否显示
-- 开启或关闭 `Citations`
-- 选择界面语言（中文 / 英文）
+- Control whether each feature in the toolbar is displayed
+- Enable or disable `Citations`
+- Choose the interface language (Chinese / English)
 
-## 🔐 隐私说明
+## 🔐 Privacy
 
-- 插件以本地使用为主，收藏和设置等信息均保存在浏览器本地。
-- 所有信息处理尽可能在你的本地完成，不要求账号登录，也不需要额外配置。
+- The plugin is primarily for local use, and information such as bookmarks and settings are saved locally in the browser.
+- All information processing is completed locally as much as possible, requiring no account login or additional configuration.
 
-## ❓ 常见问题
+## ❓ FAQ
 
 <details>
-<summary><strong>为什么 Citations 没有数值？</strong></summary>
+<summary><strong>Why does Citations have no value?</strong></summary>
 
-该功能受网络环境和上游页面状态影响，偶尔会出现暂时不可用的情况，稍后重试通常即可恢复。
+This feature is affected by the network environment and upstream page status, and occasionally it may be temporarily unavailable. Retrying later usually restores it.
 
 </details>
 
 <details>
-<summary><strong>为什么 GitHub 按钮不能点？</strong></summary>
+<summary><strong>Why is the GitHub button unclickable?</strong></summary>
 
-当前论文未检测到可用的代码仓库链接，因此按钮会保持不可点击状态。
+No available code repository links were detected for the current paper, so the button remains unclickable.
 
 </details>
 
 <details>
-<summary><strong>为什么有时作者单位信息为空？</strong></summary>
+<summary><strong>Why is author affiliation information sometimes empty?</strong></summary>
 
-单位信息依赖论文正文内容本身。部分论文的格式或写法会影响识别效果；如果你发现无法识别的论文，欢迎反馈，我们会持续改进支持范围。
+Affiliation information depends on the content of the paper itself. The format or writing style of some papers may affect recognition; if you find a paper that cannot be recognized, feel free to provide feedback, and we will continue to improve the support range.
 
 </details>
 
-## 💌 支持与反馈
+## 💌 Support and Feedback
 
-如果你有建议、需求或发现了 bug，欢迎通过以下方式联系我们：
+If you have suggestions, requirements, or find a bug, please contact us through the following ways:
 
-- 邮件：`dnarso@163.com`
-- 问卷反馈：[点击填写反馈问卷](https://v.wjx.cn/vm/e3s3Bs9.aspx#)
+- Email: `dnarso@163.com`
+- Questionnaire Feedback: [Click to fill out the feedback questionnaire](https://v.wjx.cn/vm/e3s3Bs9.aspx#)
 
-如果这款插件对你有帮助，也欢迎分享给更多小伙伴，并在 GitHub 仓库点亮 `Watching` 和 `Star`，第一时间获取更新动态。你的每一份支持，都是我们持续迭代与维护的最大动力！
+If this plugin is helpful to you, feel free to share it with more friends and light up `Watching` and `Star` on the GitHub repository to get the latest updates as soon as possible. Your every support is our greatest motivation for continuous iteration and maintenance!
 
-如果它确实帮你节省了不少查论文的时间，也欢迎请开发者喝一杯咖啡，或者让开发者买得起更多 token。谢谢支持 ❤️
+If it has indeed saved you a lot of time checking papers, feel free to buy the developer a cup of coffee or let the developer afford more tokens. Thank you for your support ❤️
 
 <table>
   <tr>
