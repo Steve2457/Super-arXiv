@@ -56,6 +56,11 @@
 
 ## 🧩 核心能力
 
+<p align="center">
+  <img src="pic/0.gif" alt="核心能力演示 1" width="400" />
+  <img src="pic/1.gif" alt="核心能力演示 2" width="400" />
+</p>
+
 ### 论文页增强
 
 - `Google Scholar`：快速查看相关工作与被引情况

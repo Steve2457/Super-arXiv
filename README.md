@@ -56,6 +56,11 @@
 
 ## 🧩 Core Capabilities
 
+<p align="center">
+  <img src="pic/0.gif" alt="Core capability demo 1" width="400" />
+  <img src="pic/1.gif" alt="Core capability demo 2" width="400" />
+</p>
+
 ### Paper Page Enhancement
 
 - `Google Scholar`: Quickly view related work and citations
